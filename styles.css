@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+}
+
+main{
+    box-sizing: border-box;
+}
+
+
+body {
+position: fixed;
+left: 35rem;
+}
+
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+   
+    
+}
+
+
+
+input {
+    background-color: hsl(159, 41%, 61%);
+    border-radius: 0.25rem 0;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: white;
+    font: 500 1rem 'Poppins', sans-serif;
+    border: none;
+    transition: background 0.4s;
+  
+}
+
+input:hover{
+    background: hsl(159, 41%, 80%);
+    
+}
+
+span {
+    color: hsl(222, 41%, 50%);
+}
